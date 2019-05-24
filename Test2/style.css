@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-image:url("https://scontent.fhan2-3.fna.fbcdn.net/v/t1.0-9/52739813_1141682262659561_7424908761451462656_n.jpg?_nc_cat=109&_nc_eui2=AeFiOgfr_osdIROWIOASFk5wGV1fAdasZZGFJfim2Le39emK_Wn2mEYTLJ6mIZpjrNfHBOCZlq2LEJ77RRx1nkihd3VZ2PUi-NuiIt8uKJ_szQ&_nc_oc=AQmSw0KO_YEeMv7GC6mQnrc0drYV6oxuNoc0HOz8Dqo7NlYyEbqsMT6bOZpkgtU1CCc&_nc_ht=scontent.fhan2-3.fna&oh=dceeb10360e9271a875c09f2433af489&oe=5D5AF896");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    position: relative;
+    background-color: rgb(29, 29, 38, 0.73);
+    }
+  form img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+  
+  }
+  form h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  form input{
+   display: block;
+   margin: 10px;
+   padding: 8px 14px;
+   border-radius: 20px;
+   background-color: rgba(199, 194, 194, 0.151);
+   border: none;
+   outline: none;
+   color: white;
+    }
+    form button {
+      padding: 8px 16px;
+      display: block;
+      width: 100%;
+      background-color: white;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      margin: 2rem 0;
+    }
